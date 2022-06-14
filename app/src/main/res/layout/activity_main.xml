@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="210dp"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:background="#B4000000"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f03016"
+            android:padding="16dp"
+            android:text="Sign in with Google+" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00a2d2"
+            android:padding="16dp"
+            android:text="Sign in with Twitter" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#46529f"
+            android:padding="16dp"
+            android:text="Sign in with Facebook" />
+    </LinearLayout>
+
+</RelativeLayout>
